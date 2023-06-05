@@ -18,6 +18,9 @@ namespace sigmaclicker
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// 
+
+    // penis
     public partial class MainWindow : Window
     {
         public MainWindow()
