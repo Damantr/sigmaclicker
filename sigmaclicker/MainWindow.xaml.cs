@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -26,5 +27,12 @@ namespace sigmaclicker
         {
             InitializeComponent();
         }
+        public int count = 0;
+        private void sykabla_Click(object sender, RoutedEventArgs e)
+        {
+            count++;
+            bebra1.Text = Convert.ToString(count);
+        }
+        
     }
 }
